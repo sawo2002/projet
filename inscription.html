@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="css/app.css">
+</head>
+
+<style>
+    form {
+        background-color: #2cd3e1;
+        padding: 36px;
+        margin: 24px;
+        width: 34%;
+        height: 50%;
+        box-shadow: 0 7px 12px rgba(12, 3, 3, 0.3);
+    }
+
+    form h1 {
+        padding: 2px;
+        margin: 2px;
+        text-align: center;
+        text-transform: uppercase;
+    }
+    
+    input {
+        padding: 8px;
+        margin: 5px;
+    }
+</style>
+
+<body>
+    <form action="reserver.php" method="post">
+        <h1>Connexion</h1>
+        <label for="">nom d'utilisateur:</label>
+        <input type="text" name="login" required><br>
+        <label for="">mot de passe:</label>
+        <input type="password" name="mdp" required><br>
+        <input type="submit" name="connecter" value="se connecter">
+        <p>vous n'avez pas de compte ? <a href="form.html">Creer un compte</a></p>
+    </form>
+    <!-- <?php if(isset($error)) {echo "<h3>$error</h3>";} ?> -->
+</body>
+</html>

@@ -1,0 +1,90 @@
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #2cd3e1;
+}
+.header .container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.container .ul{
+    display: flex;
+    text-decoration: none;
+    list-style: none;
+    gap:30px;
+    font-size: larger;
+    font-weight: 600;
+    align-items: center;
+    
+}
+.container {
+    width: 90%;
+    margin: auto;
+}
+
+.ul li a{
+    list-style: none;
+    text-decoration: none;
+    color: black;
+} 
+
+
+ul  :nth-child(3){
+    background-color: rgb(0, 0, 0);
+    padding: 16px;
+    
+}
+
+ul  :nth-child(3) a{
+        color: rgb(255, 255, 255);
+    
+}
+
+.text-img {
+    display: flex;
+    gap: 20px;
+    align-items: center;
+    justify-content: space-between;
+    padding: 16px;
+    margin-bottom: 14px;
+}
+
+.text {
+    display: flex;
+    gap: 20px;
+    align-items: center;
+    justify-content: space-between;
+    padding: 16px;
+    margin: 14px;
+}
+
+.img .btn{
+    background-color: #2cd3e1;
+    padding: 10px;
+    margin: 6px;
+    border-radius: 2px;
+    list-style: none;
+    text-decoration: none;
+}
+
+.footer-top {
+    background-color: #2cd3e1;
+}
+
+.footer-contact {
+    list-style: none;
+    text-decoration: none;
+}
+
+.socials-network {
+    list-style: none;
+    text-decoration: none;
+    display: flex;
+    justify-content: center;
+    margin-top: 40px;
+    gap: 24px
+
+}
+
